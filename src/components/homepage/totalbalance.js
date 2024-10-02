@@ -1,32 +1,36 @@
 import { IoIosArrowRoundUp, IoIosArrowRoundDown } from "react-icons/io";
 function Totalbalance({text, income, spending}) {
     const totalBalanceComponent = {
+        padding: '10px',
         display: 'grid',
         gridTemplateColumns: 'auto auto',
-        gridTemplateRows: 'auto auto auto',
-        padding: '10px'
+        gridTemplateRows: '2em 2em 4em',
+        alignItems: 'center'
     }
 
     const tBTextStyle = {
-        margin: '0.5em 0'
+        padding: '0.5em 0',
     }
 
     const totalBalanceTitle = {
         fontSize: '24px',
         gridColumn: '1/3'
+
     }
 
     const totalBalanceAmt = {
+        textAlign: 'left',
         fontSize: '22px',
         gridColumn: '1/3'
     }
     
     const homepgStats = {
         display: 'grid',
-        gridTemplateRows: 'auto auto',
+        gridTemplateRows: '2em 2em',
         gridTemplateColumns: '1fr 4fr',
         padding: '5px 0px 5px 0px',
-        margin: '5px 0px 5px 0px'
+        margin: '5px 0px 5px 0px',
+        alignItems: 'center'
     }
 
     const IoIosArrow = {
